@@ -1,11 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 main {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
-.image-container {
+.img-container {
   background-image: url(/img/leafs.jpg);
+  width: 40%;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -15,6 +22,22 @@ main {
 }
 
 .overlay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.45);
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.img-container .overlay img {
+  width: 25%;
+}
+
+.form-container {
+  width: 60%;
 }
