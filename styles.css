@@ -9,6 +9,7 @@ main {
   flex-wrap: nowrap;
 }
 
+/* Left Side Image Seciton */
 .img-container {
   background-image: url(/img/leafs.jpg);
   width: 40%;
@@ -38,6 +39,28 @@ main {
   width: 25%;
 }
 
+/* Right Side Form Section */
 .form-container {
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text_content {
+  padding: 0 5rem;
+}
+
+form {
+  width: 100%;
+}
+
+form .inputs {
+  width: 100%;
+  padding: 2rem 5rem;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.text_content.bottom {
+  padding: 2rem 5rem;
 }
