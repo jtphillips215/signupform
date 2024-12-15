@@ -94,7 +94,7 @@ form legend {
 
 .form-input label {
   margin-bottom: 0.5rem;
-  color: #3C4142
+  color: #3c4142;
 }
 
 form .interior {
@@ -104,7 +104,7 @@ form .interior {
 }
 
 .form-container #signup_page input {
-  border: solid 1px #E5E7EB;
+  border: solid 1px #e5e7eb;
 }
 
 .btn-green {
@@ -122,6 +122,7 @@ form .interior {
 .btn-green:hover {
   background-color: #fff;
   color: #596d48;
+}
 
 .text_content.bottom {
   padding: 2rem 5rem;
